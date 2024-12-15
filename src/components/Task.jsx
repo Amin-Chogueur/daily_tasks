@@ -77,9 +77,9 @@ function Task({ task, status }) {
       ) : (
         <form
           key={task._id * 3}
-          className="border border-gray-700 p-5 rounded-xl flex justify-between  mb-4 bg-[#1F2937] "
+          className="border border-gray-700 p-3 rounded-xl flex justify-between  mb-4 bg-[#1F2937] "
         >
-          <div>
+          <div className="max-w-[100%]">
             {status === "loading" && (
               <p className="text-center my-3 text-xl">Loading...</p>
             )}
@@ -119,7 +119,7 @@ function Task({ task, status }) {
             </div>
 
             <input
-              className="bg-[#121212] my-2 p-1 rounded"
+              className="bg-[#121212] my-2 p-1 rounded max-w-[90%]"
               type="text"
               name="description"
               value={updatedTask.description}

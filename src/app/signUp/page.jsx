@@ -39,7 +39,7 @@ export default function SignUp() {
     <div className="flex justify-center items-center h-[calc(100vh-120px)]">
       <form
         onSubmit={handleSubmitForm}
-        className="flex flex-col gap-5 p-5 rounded-lg bg-black w-[300px] mx-auto  border-t-teal-700  border-t-4"
+        className="flex flex-col gap-5 p-5 rounded-lg bg-black w-[300px] mx-auto  border-t-[#2FB5F2]   border-t-4"
       >
         <input
           className="bg-[#222] p-2 rounded"
@@ -76,13 +76,15 @@ export default function SignUp() {
         />
         <button
           disabled={loading}
-          className={` p-2 rounded ${loading ? "bg-slate-700" : "bg-teal-600"}`}
+          className={` p-2 rounded ${
+            loading ? "bg-slate-700" : "bg-[#2FB5F2] "
+          }`}
         >
           {loading ? "In Process..." : "SignUp"}
         </button>
         <p className="text-center">
           already have an acounte{" "}
-          <Link className="text-teal-600 underline" href={"/"}>
+          <Link className="text-[#2FB5F2]  underline" href={"/"}>
             Login
           </Link>
         </p>
