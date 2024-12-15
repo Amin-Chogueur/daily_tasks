@@ -26,7 +26,7 @@ function TaskForm() {
 
   return (
     <form onSubmit={handleSubmit} className="bg-[#1F2937] px-2 py-4 rounded-lg">
-      <h2 className="text-[#00ADB5] text-xl md:text-2xl mb-5 text-center">
+      <h2 className="text-[#2FB5F2]  text-xl md:text-2xl mb-5 text-center">
         Create New Task
       </h2>
 
@@ -92,7 +92,7 @@ function TaskForm() {
 
       <button
         type="submit"
-        className="bg-[#00ADB5] hover:bg-[#008C9E] text-white font-bold p-3 rounded mt-4 block mx-auto w-full transition-all"
+        className="bg-[#2FB5F2]  hover:bg-[#008C9E] text-white font-bold p-3 rounded mt-4 block mx-auto w-full transition-all"
       >
         CREATE
       </button>

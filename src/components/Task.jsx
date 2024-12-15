@@ -26,7 +26,7 @@ function Task({ task, status }) {
           className="border border-gray-700 p-2 rounded-xl flex  justify-between mb-4 bg-[#1F2937] "
         >
           <div className="break-words w-[50%]">
-            <h3 className="text-lg md:text-xl text-[#00ADB5] capitalize mb-1">
+            <h3 className="text-lg md:text-xl text-[#2FB5F2]  capitalize mb-1">
               {task.title}{" "}
               <span
                 className={`text-sm md:text-lg ${
@@ -40,7 +40,7 @@ function Task({ task, status }) {
             <p
               className={`text-sm md:text-xl ${
                 task.status === "In-Progress"
-                  ? "text-[#00ADB5]"
+                  ? "text-[#2FB5F2]"
                   : task.status === "Todo"
                   ? "text-[#FF5722]"
                   : "text-[#8BC34A]"
@@ -90,7 +90,7 @@ function Task({ task, status }) {
             )}
             <div className="flex gap-1 ">
               <input
-                className="w-[50%] text-xl text-[#00ADB5] capitalize bg-[#121212] mb-2 p-1 rounded"
+                className="w-[50%] text-xl text-[#2FB5F2]  capitalize bg-[#121212] mb-2 p-1 rounded"
                 type="text"
                 name="title"
                 value={updatedTask.title}

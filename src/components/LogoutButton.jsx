@@ -8,12 +8,12 @@ export default function LogoutButton() {
   const { data: session } = useSession();
   if (!session)
     return (
-      <Link className="bg-teal-600 p-1 rounded" href={"/signUp"}>
+      <Link className="bg-[#2FB5F2]  p-1 rounded" href={"/signUp"}>
         SignUp
       </Link>
     );
   return (
-    <button className="bg-teal-600 p-1 rounded" onClick={() => signOut()}>
+    <button className="bg-[#2FB5F2] p-1 rounded" onClick={() => signOut()}>
       Logout
     </button>
   );

@@ -26,7 +26,9 @@ function Tasks() {
     <div>
       {tasks.length > 0 ? (
         <div className="mt-7 mb-4 flex justify-between items-center">
-          <h2 className="text-[#00ADB5] text-xl">Task List ({tasks.length})</h2>
+          <h2 className="text-[#2FB5F2]  text-xl">
+            Task List ({tasks.length})
+          </h2>
           <div>
             <label htmlFor="">Filter:</label>
             {"  "}
@@ -44,7 +46,7 @@ function Tasks() {
           </div>
         </div>
       ) : (
-        <p className="text-center text-[#00ADB5] text-2xl mt-3">
+        <p className="text-center text-[#2FB5F2]  text-2xl mt-3">
           You Have No Task To Do Today!
         </p>
       )}

@@ -40,7 +40,7 @@ export default function Login() {
     <div className="flex justify-center items-center h-[calc(100vh-120px)]">
       <form
         onSubmit={handleSubmitForm}
-        className="flex flex-col gap-5 p-5 rounded-lg bg-black w-[300px] mx-auto  border-t-teal-700 border-t-4"
+        className="flex flex-col gap-5 p-5 rounded-lg bg-black w-[300px] mx-auto  border-t-[#2FB5F2]  border-t-4"
       >
         <input
           className="bg-[#222] p-2 rounded"
@@ -64,12 +64,12 @@ export default function Login() {
           }
           name="password"
         />
-        <button className="bg-teal-600 p-2 rounded">
+        <button className="bg-[#2FB5F2]  p-2 rounded">
           {loading ? "In Process..." : "Login"}
         </button>
         <p className="text-center">
           D&apos;ont have have an accounte{" "}
-          <Link className="text-teal-600 underline" href={"/signUp"}>
+          <Link className="text-[#2FB5F2]  underline" href={"/signUp"}>
             SignUp
           </Link>
         </p>
