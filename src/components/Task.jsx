@@ -25,7 +25,7 @@ function Task({ task, status }) {
           key={task._id}
           className="border border-gray-700 p-2 rounded-xl flex  justify-between mb-4 bg-[#1F2937] "
         >
-          <div className="break-words w-[50%]">
+          <div className="break-words w-[50%] sm:w-[70%]">
             <h3 className="text-lg md:text-xl text-[#2FB5F2]  capitalize mb-1">
               {task.title}{" "}
               <span
@@ -119,7 +119,7 @@ function Task({ task, status }) {
             </div>
 
             <input
-              className="bg-[#121212] my-2 p-1 rounded max-w-[85%]"
+              className="bg-[#121212] my-2 p-1 rounded max-w-[85%] sm:w-[100%]"
               type="text"
               name="description"
               value={updatedTask.description}
@@ -142,7 +142,7 @@ function Task({ task, status }) {
                   })
                 }
               >
-                <option value="Todo">ToDo</option>
+                <option value="Todo">To-do</option>
                 <option value="In-Progress">In-Progress</option>
                 <option value="Completed">Completed</option>
               </select>

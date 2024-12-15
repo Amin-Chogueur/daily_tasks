@@ -66,7 +66,7 @@ function TaskForm() {
             }
             name="status"
           >
-            <option value="Todo">Todo</option>
+            <option value="Todo">To-do</option>
             <option value="In-Progress">In-Progress</option>
             <option value="Completed">Completed</option>
           </select>
