@@ -83,7 +83,7 @@ export default function SignUp() {
           {loading ? "In Process..." : "SignUp"}
         </button>
         <p className="text-center">
-          already have an acounte{" "}
+          Already have an account{" "}
           <Link className="text-[#2FB5F2]  underline" href={"/"}>
             Login
           </Link>

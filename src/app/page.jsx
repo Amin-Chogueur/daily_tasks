@@ -68,7 +68,7 @@ export default function Login() {
           {loading ? "In Process..." : "Login"}
         </button>
         <p className="text-center">
-          D&apos;ont have have an accounte{" "}
+          D&apos;ont have an account ?{" "}
           <Link className="text-[#2FB5F2]  underline" href={"/signUp"}>
             SignUp
           </Link>
